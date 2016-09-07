@@ -1,0 +1,42 @@
+<template name="review">
+    
+   
+    
+    <div class="row">
+            <div class="col-lg-4">
+                
+                <h1 class="page-header">Add a review                    
+                </h1>
+               
+            </div>
+         
+    
+        <div class="col-md-8 col-md-offset-2">
+    <form  role="search" name="reviewForm">
+       
+  <div class="form-group">
+     <textarea type="text" name="commentText" class="form-control" placeholder="Review"></textarea>
+  </div>
+        
+        <div class="form-group">
+            <div class="text-right">
+                            
+                <a  id="score1"><span class="{{starClass 1}}"></span></a>
+                <a class="{{starClass 2}}" id="score2"></a>
+                <a class="{{starClass 3}}" id="score3"></a>
+                <a class="{{starClass 4}}" id="score4"></a>
+                <a class="{{starClass 5}}" id="score5"></a>            
+                        </div>
+            </div>
+        
+        <button  class="btn btn-default" id="btnAdd">Submit</button>
+        
+        
+        <button type="submit" class="btn btn-default" id="btnCandel">Cancel</button>
+ 
+</form>
+        </div>
+    </div>
+   
+</template>
+

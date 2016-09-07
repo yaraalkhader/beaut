@@ -1,0 +1,166 @@
+/* CSS declarations go here */
+
+@media (min-width: 768px) {
+    
+    #bs-example-navbar-collapse-1 {
+       padding: 0 15px;
+    }
+}
+
+
+
+body {
+    font-family: "Lato";
+    font-weight: 200;
+    font-size: 15px;
+    color: lightslategrey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato";
+    font-weight: 300;
+    color: #333;
+}
+
+.row {
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 10px;
+margin-bottom: 100px;     
+}
+
+hr {
+    position: relative;
+    border: none;
+}
+
+hr:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background: #ccc;
+}
+
+p {
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+#headerwrap {
+	background: url(http://www.zastavki.com/pictures/originals/2014/Girls___Beautyful_Girls_Girl_with_flying_hair_079350_.jpg) no-repeat top;
+	margin-top: 0px;
+	padding-top: 200px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+    
+	color:#ffffff;
+	margin-top: 10px;
+	padding-bottom: 0px;
+	letter-spacing: 8px;
+	font-size: 70px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#headerwrap h3 {
+    font-family: "helvetica";
+	color:#ffffff;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+    padding-bottom: 100px;
+	line-height: 20px;
+	letter-spacing: 5px;
+    font-style: italic;
+	text-shadow: 1px 1px 1px #000;
+}
+
+
+/*
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+*/
+
+#greywrap {
+	background: #D3DEE3;
+	margin-top: 0px;
+	padding-top: 60px;
+	border-bottom: 20px solid #D3DEE3;
+	text-align: center;
+}
+
+#greywrap p {
+	margin-left: 30px;
+	margin-right: 30px;
+	letter-spacing: 3px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+/*#nail {
+	background: url(http://i1.wp.com/www.thefashionmedley.com/wp-content/uploads/2015/09/neutral-nails.jpg?zoom=2&resize=449%2C576);
+}*/
+
+#about {
+	background: #E5E8E9;
+    margin-bottom: 50px;
+}
+
+#about h1 {
+    
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+#about p {
+    
+	margin-top: 80px;
+	letter-spacing: 1px;
+}
+
+
+.map-container {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+}

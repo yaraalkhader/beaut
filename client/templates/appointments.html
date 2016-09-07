@@ -1,0 +1,68 @@
+<template name="appointments">
+   
+     <div class="row">
+            <div class="col-lg-4">
+                
+                <h1 class="page-header">My Bookings                    
+                </h1>
+               
+            </div>
+         
+    
+        <div class="col-md-8 col-md-offset-2">
+         <ul >
+            {{#each appointments}}
+              <br/>               
+             {{#with getProvider provider}}
+             <span style="color: #006a2f;
+font: 14px/18px 'Bevan';
+margin: 0 0 7px 0;">{{name}}</span>
+             
+             {{/with}}
+             <br/>
+             <span style=" color: #e0250c;
+font-style: normal;">{{date}} {{time}}0</span>
+                <br/>
+             <em style="color: #aeaeae;">{{status}} </em>
+             
+             <div class="pull-right">
+                 <button class="btn btn-default" id="deleteBtn" value="{{_id}}">Delete Booking</button>
+            
+             </div>
+              <hr>
+            {{/each}}
+        </ul>
+        </div>
+    </div>
+<!--
+         Pagination 
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+-->
+   
+</template>

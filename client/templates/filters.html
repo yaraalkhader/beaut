@@ -1,0 +1,65 @@
+<template name="filters">
+    
+    <form class="navbar-form navbar-right" role="search" name="filterForm">
+        <div class="form-group"> 
+  
+        <div class="input-group">
+   <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>  
+      <input type="text" class=" form-control" disabled="true" value="France, Nice">      
+  </div>
+         
+     
+      
+        <div class="input-group datetimepicker">
+             <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+             <input name="idInput" id="idInput" class="set-due-date form-control" type="text"/>
+           </div>
+        </div>
+        
+<!--
+        <a id="nextPage" href="{{search}}">
+          Next <span aria-hidden="true">&rarr;</span>
+        </a>
+-->
+  <button  id="btnSearch" class="btn btn-default" {{search}}><span class="glyphicon glyphicon-search"></span></button>
+        
+        
+        <a href="{{pathFor route='advancedSearch'}}" class="btn btn-default ">Advanced ...</a>
+       
+</form>
+    
+   
+</template>
+
+<template name="filtersMain">
+    
+    <form class="navbar-form " role="search" name="filterForm">
+        <div class="form-group"> 
+  
+        <div class="input-group">
+   <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>  
+      <input type="text" class=" form-control" disabled="true" value="France, Nice">      
+  </div>
+         
+     
+      
+        <div class="input-group datetimepicker">
+             <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+             <input name="idInput" id="idInput" class="set-due-date form-control" type="text"/>
+           </div>
+        </div>
+        
+<!--
+        <a id="nextPage" href="{{search}}">
+          Next <span aria-hidden="true">&rarr;</span>
+        </a>
+-->
+  <button  id="btnSearch" class="btn btn-default" {{search}}><span class="glyphicon glyphicon-search"></span></button>
+        
+        
+      
+       
+</form>
+    
+   
+</template>
